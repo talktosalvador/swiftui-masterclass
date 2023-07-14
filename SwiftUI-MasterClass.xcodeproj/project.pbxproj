@@ -52,8 +52,7 @@
 		17AB256B2A6200BB00D8FE0C /* SwiftUI-MasterClass */ = {
 			isa = PBXGroup;
 			children = (
-				17AB256C2A6200BB00D8FE0C /* SwiftUI_MasterClassApp.swift */,
-				17AB256E2A6200BB00D8FE0C /* ContentView.swift */,
+				17AB257B2A62011100D8FE0C /* app */,
 				17AB25702A6200BC00D8FE0C /* Assets.xcassets */,
 				17AB25722A6200BC00D8FE0C /* SwiftUI_MasterClass.entitlements */,
 				17AB25732A6200BC00D8FE0C /* Preview Content */,
@@ -67,6 +66,15 @@
 				17AB25742A6200BC00D8FE0C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		17AB257B2A62011100D8FE0C /* app */ = {
+			isa = PBXGroup;
+			children = (
+				17AB256C2A6200BB00D8FE0C /* SwiftUI_MasterClassApp.swift */,
+				17AB256E2A6200BB00D8FE0C /* ContentView.swift */,
+			);
+			path = app;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
