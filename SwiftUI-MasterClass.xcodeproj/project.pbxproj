@@ -12,6 +12,7 @@
 		17AB25712A6200BC00D8FE0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17AB25702A6200BC00D8FE0C /* Assets.xcassets */; };
 		17AB25752A6200BC00D8FE0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17AB25742A6200BC00D8FE0C /* Preview Assets.xcassets */; };
 		17AB257D2A62019800D8FE0C /* ButtonsAlignmentGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AB257C2A62019800D8FE0C /* ButtonsAlignmentGradient.swift */; };
+		17AB25832A6202E300D8FE0C /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AB25822A6202E300D8FE0C /* ImageExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		17AB25722A6200BC00D8FE0C /* SwiftUI_MasterClass.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUI_MasterClass.entitlements; sourceTree = "<group>"; };
 		17AB25742A6200BC00D8FE0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		17AB257C2A62019800D8FE0C /* ButtonsAlignmentGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonsAlignmentGradient.swift; sourceTree = "<group>"; };
+		17AB25822A6202E300D8FE0C /* ImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		17AB256B2A6200BB00D8FE0C /* SwiftUI-MasterClass */ = {
 			isa = PBXGroup;
 			children = (
+				17AB25812A6202E300D8FE0C /* extensions */,
 				17AB257B2A62011100D8FE0C /* app */,
 				17AB25702A6200BC00D8FE0C /* Assets.xcassets */,
 				17AB25722A6200BC00D8FE0C /* SwiftUI_MasterClass.entitlements */,
@@ -78,6 +81,15 @@
 				17AB256E2A6200BB00D8FE0C /* ContentView.swift */,
 			);
 			path = app;
+			sourceTree = "<group>";
+		};
+		17AB25812A6202E300D8FE0C /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				17AB25822A6202E300D8FE0C /* ImageExtension.swift */,
+			);
+			name = extensions;
+			path = ../../UniversalHelloWorld/UniversalHelloWorld/extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +165,7 @@
 				17AB256F2A6200BB00D8FE0C /* ContentView.swift in Sources */,
 				17AB256D2A6200BB00D8FE0C /* SwiftUI_MasterClassApp.swift in Sources */,
 				17AB257D2A62019800D8FE0C /* ButtonsAlignmentGradient.swift in Sources */,
+				17AB25832A6202E300D8FE0C /* ImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
